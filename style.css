@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: end;
+}
+nav a {
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 5ms;
+}
+a:hover {
+  color: chocolate;
+}
+nav i {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 50%;
+  margin-right: 20px;
+  padding: 10px;
+  transition: 5ms;
+}
+nav i:hover {
+  background-color: chocolate;
+}
+#hero {
+  width: 100%;
+  padding: 40px 50px;
+}
+#hero h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+#hero #hero-in {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#hero #hero-in p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 30px;
+}
+#hero #hero-in #right {
+  width: 20%;
+  /* background-color: red; */
+}
+.elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 0 0;
+  margin-bottom: 5px;
+  transition: 5ms;
+  border-top: 2px solid black;
+  /* background-color: yellow; */
+}
+.elements a {
+  font-size: 16px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.elements i {
+  font-size: 20px;
+  font-weight: 500px;
+  opacity: 0;
+  margin-right: 10px;
+}
+.elements:hover i {
+  opacity: 1;
+  background-color: black;
+  color: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+.elements:hover a {
+  text-decoration: underline;
+}
+#bottom{
+  width: 100%;
+  height: 70%;
+  background-color: red;
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: 0 20%;
+}
